@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:good_travel/features/presentation/pages/bonus_page.dart';
 import 'package:good_travel/features/presentation/pages/register_page.dart';
 import 'package:good_travel/features/presentation/pages/splash_page.dart';
 import 'package:good_travel/features/presentation/pages/started_page.dart';
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => const SplashPage(),
         '/started': (context) => const StartedPage(),
         '/register': (context) => const RegisterPage(),
+        '/bonus': (context) => const BonusPage(),
       },
     );
   }
