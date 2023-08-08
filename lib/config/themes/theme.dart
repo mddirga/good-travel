@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+double defaultMargin = 24.0;
+double defaultRadius = 17.0;
+
 Color primaryColor = const Color(0xff5C40CC);
 Color blackColor = const Color(0xff1F1449);
 Color whiteColor = const Color(0xffFFFFFF);

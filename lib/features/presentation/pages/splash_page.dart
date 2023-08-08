@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:good_travel/config/themes/theme.dart';
-import 'package:good_travel/features/presentation/pages/started_page.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
