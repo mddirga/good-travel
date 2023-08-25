@@ -246,13 +246,13 @@ class RegisterPage extends StatelessWidget {
       return Container(
         alignment: Alignment.center,
         margin: const EdgeInsets.only(
-          top: 50,
-          bottom: 73,
+          top: 20,
+          bottom: 50,
         ),
         child: Text(
           'Terms and Conditions',
           style: greyTextStyle.copyWith(
-            fontSize: 16,
+            fontSize: 14,
             fontWeight: regular,
           ),
         ),
